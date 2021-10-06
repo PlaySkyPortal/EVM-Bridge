@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {},
+			"title": "Bytes"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/Bytes.sol": "Bytes"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/Bytes.sol": {
+			"keccak256": "0xaac87fcac1962e29a85f577dafccf09d06b413fcc5bf97e821dca0b25183c310",
+			"urls": [
+				"bzzr://e1a3e3f8d13a8009d505b4d20029adbbcaf4c20a92ee10a223767fbb6d093dd2"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/ArbitraryMessage.sol": "ArbitraryMessage"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/ArbitraryMessage.sol": {
+			"keccak256": "0x57f0681119493908ea07667cdb99db7b5b3934fafa7aad074003533301afa632",
+			"urls": [
+				"bzzr://dff20e0ca89ec7371d4b799dd6334237122d124eae3f3611c9c457a2424c0788"
+			]
+		}
+	},
+	"version": 1
+}

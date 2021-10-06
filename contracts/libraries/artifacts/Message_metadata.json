@@ -1,0 +1,42 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/Message.sol": "Message"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IBridgeValidators.sol": {
+			"keccak256": "0xb15095cb0791d9286cc4a9c8decee98fd38b4aac9fdcaaac87b19e6851c10f17",
+			"urls": [
+				"bzzr://80d1920101d3109f56d342a04828db2110e5f8ec1413e7d6b9e82dc89ff8dbe9"
+			]
+		},
+		"contracts/libraries/Message.sol": {
+			"keccak256": "0x9acc97d28e725f0f5725c337271ecac73616e3798fae30850588fcb27e459047",
+			"urls": [
+				"bzzr://1df7e76da7e40b1d8cda76040308c5ddbd3f029325dc6f29167c1bd50afe982c"
+			]
+		}
+	},
+	"version": 1
+}
