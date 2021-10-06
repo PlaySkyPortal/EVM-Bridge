@@ -1,0 +1,303 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_i",
+						"type": "uint256"
+					},
+					{
+						"name": "_bridge",
+						"type": "address"
+					},
+					{
+						"name": "_executor",
+						"type": "address"
+					}
+				],
+				"name": "setValueOnOtherNetworkUsingManualLane",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "lastSender",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_bridge",
+						"type": "address"
+					},
+					{
+						"name": "_selector",
+						"type": "bytes32"
+					},
+					{
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "makeAsyncCall",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "methodWillFail",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "messageId",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_i",
+						"type": "uint256"
+					},
+					{
+						"name": "_bridge",
+						"type": "address"
+					},
+					{
+						"name": "_executor",
+						"type": "address"
+					}
+				],
+				"name": "setValueOnOtherNetwork",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "messageSourceChainId",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_bridge",
+						"type": "address"
+					},
+					{
+						"name": "_executor",
+						"type": "address"
+					}
+				],
+				"name": "methodOutOfGasOnOtherNetwork",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "methodOutOfGas",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_bridge",
+						"type": "address"
+					},
+					{
+						"name": "_executor",
+						"type": "address"
+					}
+				],
+				"name": "methodWillFailOnOtherNetwork",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "txHash",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_messageId",
+						"type": "bytes32"
+					},
+					{
+						"name": "_status",
+						"type": "bool"
+					},
+					{
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "onInformationReceived",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mocks/Box.sol": "Box"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IAMB.sol": {
+			"keccak256": "0x5036335c047f31bb1c74634f59ec8fe1236f30a75f4a6a4853582243f4ee30cb",
+			"urls": [
+				"bzzr://24e5ba29da5b52d927dbd245d31d2e08597b27eed6eca28fa716a27be3ca563a"
+			]
+		},
+		"contracts/interfaces/IAMBInformationReceiver.sol": {
+			"keccak256": "0xe867fb3bd76e4ffaa190f5d728fcbd5a0c605c0abc518a5f8c2b649da1ca3c45",
+			"urls": [
+				"bzzr://524ee8c0e6bbcbfc49a30ba1162d12e0492ec700230880145f3a2bb5055e0d2c"
+			]
+		},
+		"contracts/mocks/Box.sol": {
+			"keccak256": "0x80d8b4881bf1fd384f0da20f224c61287b1d9ca7da098b355b1380f049b177d8",
+			"urls": [
+				"bzzr://26f4d97583235e8b142308797b5fbe372648f7b205ea0e527c2172e7ac8fb70c"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "unpackData",
+				"outputs": [
+					{
+						"name": "messageId",
+						"type": "bytes32"
+					},
+					{
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"name": "executor",
+						"type": "address"
+					},
+					{
+						"name": "gasLimit",
+						"type": "uint32"
+					},
+					{
+						"name": "dataType",
+						"type": "uint8"
+					},
+					{
+						"name": "chainIds",
+						"type": "uint256[2]"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_data",
+						"type": "bytes"
+					},
+					{
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"name": "unpackDataWithExtraParams",
+				"outputs": [
+					{
+						"name": "messageId",
+						"type": "bytes32"
+					},
+					{
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"name": "executor",
+						"type": "address"
+					},
+					{
+						"name": "gasLimit",
+						"type": "uint32"
+					},
+					{
+						"name": "dataType",
+						"type": "uint8"
+					},
+					{
+						"name": "chainIds",
+						"type": "uint256[2]"
+					},
+					{
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mocks/MessageTest.sol": "MessageTest"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/ArbitraryMessage.sol": {
+			"keccak256": "0x57f0681119493908ea07667cdb99db7b5b3934fafa7aad074003533301afa632",
+			"urls": [
+				"bzzr://dff20e0ca89ec7371d4b799dd6334237122d124eae3f3611c9c457a2424c0788"
+			]
+		},
+		"contracts/mocks/MessageTest.sol": {
+			"keccak256": "0xd55304e25d9d92f7588d6638cf0226d3537ad6e960b9f80550403bea34079537",
+			"urls": [
+				"bzzr://d25b2b55b79b0f66f162283648dc9da51212388035b11aba971882e736588d94"
+			]
+		}
+	},
+	"version": 1
+}

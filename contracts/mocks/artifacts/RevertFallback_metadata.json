@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_receiver",
+						"type": "address"
+					},
+					{
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "safeSendEth",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "receiveEth",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_receiver",
+						"type": "address"
+					},
+					{
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "sendEth",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mocks/RevertFallback.sol": "RevertFallback"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/Address.sol": {
+			"keccak256": "0x9d5d8f089aedf9dfa743c9bc66bc901db5da5be78892af178340800873e1c722",
+			"urls": [
+				"bzzr://97602c15f88d529b68d7929717afa75fd03cd0f23a1363c14cd263dbcc17599e"
+			]
+		},
+		"contracts/mocks/RevertFallback.sol": {
+			"keccak256": "0xb6976d225ca051ba0149d87cf33712dc1e51e6233ca18b330413578bd6630a68",
+			"urls": [
+				"bzzr://2c9e36b4f5b334fe419f4361db0cfa49ff6e3c2dbbc5cb8f01d67ea9dbd3d9f3"
+			]
+		},
+		"contracts/upgradeable_contracts/Sacrifice.sol": {
+			"keccak256": "0x2c8f9b5e39d33552cd16d3fdd84e58f2138042166ae9b351e97fe674f7e3f337",
+			"urls": [
+				"bzzr://a438edd320ea1fa8141d54002897c3a50cf6cb13b07b4088d01ffb099bb9e859"
+			]
+		}
+	},
+	"version": 1
+}

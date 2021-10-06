@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "bridgesAllowedLength",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mocks/OldBlockReward.sol": "OldBlockReward"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mocks/OldBlockReward.sol": {
+			"keccak256": "0x430888ca1de71f593b5e8437e37a6b988c6be4a78a78c504ff9334577df19421",
+			"urls": [
+				"bzzr://f1a486c625d7ff9894452736dead356b4c0fa2d5cd5d76e94c43d086add006a1"
+			]
+		}
+	},
+	"version": 1
+}

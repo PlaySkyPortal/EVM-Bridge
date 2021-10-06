@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mocks/GasTokenMock.sol": "Rlp"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mocks/GasTokenMock.sol": {
+			"keccak256": "0x13e61aaa28e9bea8e59ec00ef0b8b90f640cd7debc33de83237b7dbe5ae110b7",
+			"urls": [
+				"bzzr://9c9fc810a5437f0074095b6aa504791b1b04ff724dff61f098dc843caebca19f"
+			]
+		}
+	},
+	"version": 1
+}
