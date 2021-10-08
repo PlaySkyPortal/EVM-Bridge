@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/helpers/Erc20ToNativeBridgeHelper.sol": "Helper"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/helpers/Erc20ToNativeBridgeHelper.sol": {
+			"keccak256": "0x9bd944b368ca50660381ce1ddca9a122f23838ef2c65b761fe6426c23a2c2f81",
+			"urls": [
+				"bzzr://cc5fd2595ab24f1cf0d9f159c5e762004e50780eb115e620e7964dfd8dd1e586"
+			]
+		}
+	},
+	"version": 1
+}
